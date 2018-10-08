@@ -51,7 +51,7 @@ Resources:
                 - Name: website-service
                   Essential: true
                   Image: !Ref DockerImage
-                  Memory: 2048
+                  Memory: 512
                   PortMappings:
                     - ContainerPort: 3000
                   LogConfiguration:
